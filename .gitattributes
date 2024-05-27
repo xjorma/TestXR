@@ -1,0 +1,31 @@
+# Default to auto-normalized line endings.
+* text=auto
+
+# Code
+*.cs text diff=csharp eol=lf
+
+# Unity Text Assets
+*.meta merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+*.anim merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.overrideController merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.playable merge=unityyamlmerge eol=lf
+*.mask merge=unityyamlmerge eol=lf
+*.brush merge=unityyamlmerge eol=lf
+*.flare merge=unityyamlmerge eol=lf
+*.fontsettings merge=unityyamlmerge eol=lf
+*.guiskin merge=unityyamlmerge eol=lf
+*.giparams merge=unityyamlmerge eol=lf
+*.renderTexture merge=unityyamlmerge eol=lf
+*.spriteatlas merge=unityyamlmerge eol=lf
+*.terrainlayer merge=unityyamlmerge eol=lf
+*.mixer merge=unityyamlmerge eol=lf
+*.shadervariants merge=unityyamlmerge eol=lf
+*.preset merge=unityyamlmerge eol=lf
+*.asmdef -text diff eol=lf
