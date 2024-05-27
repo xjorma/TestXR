@@ -59,10 +59,10 @@ void WireFrameColor_float(in float type, out float3 color)
     bool flashing = ((int)mask & flashingFlag) != 0;
     if (flashing)
     {
-        color = lerp(_FlashingColor0, _FlashingColor1, sin(_Time * _FlashingSpeed) * 0.5 + 0.5);
+        color = lerp(_FlashingColor0.rgb, _FlashingColor1.rgb, sin(_Time * _FlashingSpeed) * 0.5 + 0.5);
     }
     else
     {
-        color = _Color.xyz;
+        color = _Color.rgb;
     }
 }
